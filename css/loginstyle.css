@@ -1,0 +1,61 @@
+body{
+    background:linear-gradient(90deg, #222046,#b95a56);
+    text-align: center;
+    
+}
+form{
+    width: auto;
+    padding: 70px;
+   
+
+}
+.container{
+    margin-top: 5%;
+    border-radius: 4ex;
+    overflow: hidden;
+    font-family: 'Abel';font-size: 22px;
+    
+}
+.container h5{
+    color: #a0464e;
+    text-align: center;
+    letter-spacing: 0.5em;
+}
+.colLeft{
+    padding: 70px;
+    background: linear-gradient(50deg,#211333 ,#6a3145);
+    text-align: center;
+}
+.colLeft img{
+    width: 220px;
+    height: 200px;
+    justify-content: center;
+
+}
+.colRight{ 
+    padding: 0px;
+    background: linear-gradient(50deg,#883e50 ,#ce5858);
+}
+#inputid{
+    color: white;
+    background: none;
+    border: none;
+    border-bottom: 2px solid white;
+    width: 90%;
+    
+  }
+  ::placeholder{
+    color: white;
+    opacity: 1; 
+    font-family: 'Abel';
+    font-size: 22px;
+   
+  }
+
+  form p{
+      color: whitesmoke;
+      text-align: center;
+      letter-spacing: 0.3em;
+      font-family: 'Abel';
+      font-size: 22px;
+  }
