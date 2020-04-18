@@ -34,7 +34,7 @@ function passStrength(){
      }
     else if((password.length>=8) && (password.length<=10)){
         text.innerText ="Medium";
-        text.style.color = "indigo";
+        text.style.color = "orange";
      }
     else{
         text.innerText ="Poor";
