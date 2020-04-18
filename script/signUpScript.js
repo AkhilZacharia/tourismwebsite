@@ -44,14 +44,14 @@ function passStrength(){
 // phone validation
 function phoneValid(){
     var phNo = document.getElementById("phNo").value ;
-    let formatPhNo =/^([0-9]{3})[-. ]{1}([0-9]{3})[-. ]{1}([0-9]{4})$/;
+    let formatPhNo =/^([0-9]{3})[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
     
     if((formatPhNo.test(phNo))){
         // alert("valid") ;
         return true;
     }
     else{
-        alert("Accepted phone number formats xxx xxx xxxx,xxx-xxx-xxxx,xxx.xxx.xxxx");
+        alert("Accepted phone number formats xxx xxx xxxx,xxx-xxx-xxxx,xxx.xxx.xxxx with 10 numbers");
         return false;
     }
 }
